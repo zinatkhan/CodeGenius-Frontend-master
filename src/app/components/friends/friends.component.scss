@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f7f6;
+    height:100%;
+    width:100%
+}
+
+.sub-container {
+    width: 50%
+}
+
+.head {
+    text-align: center
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.search-input {
+    padding: 10px;
+    width: 78%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 13px
+}
+
+.search-btn {
+    background-color: #57a5c9;
+    height: 34px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    width: 13%;
+}
+
+.item {
+    padding: 2px;
+    margin-top: 20px;
+    // display: flex;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background: #fff;
+
+}
+.item:hover{
+    background-color: #a3d6ed;
+}
+
+.username{
+    font-size:20px; width:80%; margin-left:20px; 
+}
+
+// NEW
+
+.chat-app .people-list {
+    width: 260px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 7
+}
+
+.chat-app .chat {
+    margin-left: 280px;
+    border-left: 1px solid #eaeaea
+}
+
+.people-list {
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.people-list .chat-list li {
+    padding: 10px 15px;
+    list-style: none;
+    border-radius: 3px
+}
+
+.people-list .chat-list li:hover {
+    background: #b4afed;
+    cursor: pointer
+}
+
+.people-list .chat-list li.active {
+    background: #8e86e5;
+}
+
+.people-list .chat-list li .name {
+    font-size: 15px;
+}
+
+.people-list .chat-list img {
+    width: 50px;
+    height: 50px;
+}
+
+.people-list img {
+    float: left;
+    border-radius: 50%
+}
+
+.people-list .about {
+    float: left;
+    padding-left: 8px;
+}
+
+.people-list .status {
+    color: #414b53;
+    font-size: 12px
+}
+
+.status {
+    color: #414b53;
+    font-size: 12px;
+    font-weight: normal;
+}
+
